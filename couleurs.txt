@@ -1,5 +1,0 @@
-Outline : #FF9000
-
-Textes :  #DB3F47
-
-Background : #393B4A
