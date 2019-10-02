@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato|Londrina+Outline&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Coming+Soon|Londrina+Outline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Clément Markey</title>
 </head>
 
 <body>
 
-    <h1>Hey bonjour tout le monde lol</h1>
+    <h1 class="flicker">Hey bonjour tout le monde</h1>
 
-    <div class="coucou container">
+    <div class="coucou border">
         <p>
-            Salut !
+            Bonjour ! Je m'appelle Clément. Je suis développeur web dans la région de Lille et je recherche un CDI en développement Back-End Laravel.
         </p>
     </div>
 
