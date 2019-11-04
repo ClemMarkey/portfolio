@@ -2,67 +2,75 @@
 
 body {
     margin: 0;
-    background-image: url('../img/montagnes.jpg');
-    background-size: cover;
+    background-color:$background;
 }
 
 h1,
 h2,
 h3 {
-    font-family: $roboto;
-    color: $text;
-    // font-weight: 600;
+    font-family: $oswald;
+    color: $title;
 }
 
 h1 {
+    text-transform: uppercase;
     text-align: center;
+    letter-spacing: 3px;
+    font-size: 4em;
 }
 
 p {
-    font-family: $open;
+    font-family: $istok;
     color: $text;
-
+    font-size: 1.2em;
+    line-height: 1.8;
 }
 
-.coucou {
+.top {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 150px;
-    width: 600px;
+    flex-direction: row;
+    justify-content: space-evenly;
 
     p {
+        margin-top: 42px;
+    }
+}
+
+footer p, footer a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+footer {
+    background: linear-gradient(#1f1f1f67, $background);
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    padding-bottom: 40px;
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        vertical-align: top;
+        display: inline-block;
+        color: $title;
+    }
+
+    .mail {
         text-align: center;
     }
-}
 
-.border {
-    border: 3px solid #F9F871;
-    border-radius: 5px;
-    box-shadow: $shadow, $inset;
-}
-
-@keyframes glowing {
-    0% {
-        text-shadow: 0 0 -10px #b4b468ab;
+    .tel {
+        text-align: right;
     }
-
-    40% {
-        text-shadow: 0 0 20px #b4b468ab;
-    }
-
-    60% {
-        text-shadow: 0 0 20px #b4b468ab;
-    }
-
-    100% {
-        text-shadow: 0 0 -10px #b4b468ab;
-    }
-}
-
-.glow {
-    animation: glowing 3000ms infinite;
-    color: #F9F871;
-    font-weight: 600;
 }
