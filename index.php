@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Istok+Web|Oswald&display=swap" rel="stylesheet">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Clément Markey</title>
@@ -15,48 +19,118 @@
 
 <body>
 
+    <div class="top-img"></div>
     <main>
+        
+        <section class="container row top">
 
-        <section class="top container">
-            <h1>Bonjour<br>à tous</h1>
 
-            <p class="container">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptas neque necessitatibus ipsam numquam dolores magnam temporibus aliquid. Ipsum ad quo architecto assumenda, harum aperiam blanditiis doloremque consectetur cupiditate inventore. Ad odio tempora expedita minus inventore sed quas nostrum, beatae sunt nesciunt consectetur iusto nobis dolorum, reprehenderit soluta obcaecati tenetur. Sed cum illum animi, suscipit minima doloribus nobis eaque quibusdam iure obcaecati?
+            <h1 class="col s12 offset-m2 m3">Bonjour<br>à tous</h1>
+
+            <p class="container col m6 s12">
+                Moi, c'est Clément Markey, Développeur Web.<br> Passionné par la technologie et les sciences, j'ai suivi le "Socle" de la formation proposée par l'école O'clock et suis dorénavant chez Simplon.co afin de parfaire mes connaissance et valoriser mes acquis en développement web dans le but de décrocher le Titre Professionnel: "Développeur Web et Web Mobile" et vivre d'un métier qui me captive.
             </p>
         </section>
 
-        <section class="folio"></section>
+        <section class="folio row">
+            <h2 class="center">Portfolio</h2>
 
-        <section class="contact"></section>
+            <div class="row container">
+                <div class="col folio-grid" data-aos="fade-right">
+                    <div class="col s12 sombre m5">
+                        <div class="opa">
+                            <img class="imaj" src="./img/HeyU.png" alt="Intégration HeyU">
+                        </div>
+                    </div>
+                    <p class="col s12 offset-m1 m5">
+                        Exercice pratique d'intégration à partir d'une maquette dans le cadre de ma formation, avec utilisation de Materialize CSS et utilisation de la librairie AOS JavaScript.
+                    </p>
+                </div>
 
-        <section class="about"></section>
+                <div class="col m12 folio-grid" data-aos="fade-left">
+                    <div class="col s12 right m5 sombre">
+                        <div class="opa">
+                            <img class="imaj" src="./img/Bang.png" alt="Site vitrine Bang Communication">
+                        </div>
+                    </div>
+                    <p class="col s12 m5">
+                        Intégration complète du site vitrine d'une agence de communication. Site multipage sous WordPress réalisé en trois semaines lors d'un stage.
+                    </p>
+                </div>
+
+                <div class="col m12 folio-grid " data-aos="fade-right">
+                    <div class="col s12 sombre m5">
+                        <div class="opa">
+                            <img class="imaj" src="./img/Maq.png" alt="Intégration modernen">
+                        </div>
+                    </div>
+                    <p class="col s12 offset-m2 m5">
+                        Exercice pratique d'intégration dans le cadre de ma formation, à partir d'une maquette et sans utilisation de frameworks CSS.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact container">
+            <h2 class="center">Contact</h2>
+
+            <div class="row" data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                <form action="index.php" class="col s12">
+                    <div class="input-field col s12 offset-m1 m5">
+                        <input class="validate" type="text" name="name" id="name">
+                        <label for="name">Votre nom</label>
+                    </div>
+                    <div class="input-field col s12 m5">
+                        <input type="email" id="email" class="validate">
+                        <label for="email">Votre adresse email</label>
+                    </div>
+                    <div class="input-field col s12 offset-m1 m10">
+                        <textarea id="textarea" class="materialize-textarea"></textarea>
+                        <label for="textarea">Votre message</label>
+                    </div>
+                    <div class="col m4 offset-m5">
+                        <button class="btn waves-effect waves-light btn-large grey darken-1" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
 
     </main>
 
     <footer class="footer">
-    <div class="container">
-        <div class="row nomargin">
-            <div class="col col--xs-12 col--sm-6 col--md-4 nopadding">
+        <div class="container">
+            <div class="col offset-m1 m4 center">
                 <p class="footer__text">© 2019 Clément Markey All rights reserved</p>
             </div>
 
-            <div class="col col--xs-5 col--sm-6 col--md-1 nopadding">
-                <div class="mail">
+            <div class="col s12 m2">
+                <div class="mail center">
                     <a class="mail-link" href="mailto:clement.markey.pro@gmail.com">clement.markey.pro@gmail.com</a>
                 </div>
             </div>
 
-            <div class="col col--xs-7 col--sm-6 col--md-3 nopadding">
-                <div class="tel">
+            <div class="col offset-s3 s6 m3">
+                <div class="tel center">
                     <a class="tel-link" href="tel:+33645613055">+33 6 45 61 30 55</a>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>

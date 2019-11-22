@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color:$background;
+    background-color: $background;
 }
 
 h1,
@@ -19,6 +19,16 @@ h1 {
     font-size: 4em;
 }
 
+h2 {
+    font-size: 3em;
+    margin: 50px 0;
+}
+
+main {
+    position: relative;
+    z-index: 2;
+}
+
 p {
     font-family: $istok;
     color: $text;
@@ -26,17 +36,85 @@ p {
     line-height: 1.8;
 }
 
-.top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+// ! Section top
 
+.top-img {
+    position: absolute;
+    top: -330px;
+    transform: skew(80deg);
+    width: 115vw;
+    height: 120vh;
+    z-index: 1;
+    background: #161616;
+}
+
+.top {
+    text-align: center;
+    position: relative;
+
+    h1 {
+        line-height: 1.3;
+        font-size: 3.5em;
+    }
+
+}
+
+// ! Section folio
+
+.folio {
+    overflow-x: hidden;
+    
     p {
-        margin-top: 42px;
+        margin-top: 25px;
     }
 }
 
-footer p, footer a {
+.folio-grid {
+    margin: 25px 0;
+}
+
+.sombre {
+    position: relative;
+    z-index: 100;
+    height: 200px;
+}
+
+.imaj {
+    opacity: .7;
+    position: absolute;
+    left: 0;
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+// ! Contact
+
+form {
+    margin-bottom: 30px;
+}
+
+input,
+textarea {
+    color: $text;
+}
+
+.input-field input[type=text]:focus+label {
+    color: $title !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus {
+    border-bottom: 1px solid $title !important;
+    box-shadow: 0 1px 0 0 $title !important;
+}
+
+// ! Footer
+
+footer p,
+footer a {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -45,15 +123,10 @@ footer p, footer a {
 
 footer {
     background: linear-gradient(#1f1f1f67, $background);
-    height: 100px;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: flex-end;
+    height: 110px;
     z-index: 1;
-    padding-bottom: 40px;
+    // padding-bottom: 20px;
+    padding-top: 20px;
 
     p {
         margin: 0;
@@ -65,12 +138,47 @@ footer {
         display: inline-block;
         color: $title;
     }
+}
 
-    .mail {
-        text-align: center;
+// ? Responsive
+
+@media screen and (min-width: 992px) {
+
+    .top {
+        margin-top: 130px;
+        margin-bottom: 150px;
+        text-align: left;
     }
 
-    .tel {
-        text-align: right;
+    h1 {
+        text-align: left;
     }
+
+
+    // ! FOLIO
+
+    .folio-grid {
+        
+        p {
+            margin-top: 80px;
+        }
+    }
+
+    .sombre {
+        position: relative;
+        z-index: 100;
+        width: 160px;
+        height: 300px;
+    }
+
+    .imaj {
+        opacity: .7;
+        position: absolute;
+        left: 0;
+        display: block;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
 }
