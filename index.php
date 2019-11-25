@@ -19,17 +19,30 @@
 
 <body>
 
-    <div class="top-img"></div>
     <main>
-        
+        <div class="top-img"></div>
+
         <section class="container row top">
 
 
             <h1 class="col s12 offset-m2 m3">Bonjour<br>à tous</h1>
 
             <p class="container col m6 s12">
-                Moi, c'est Clément Markey, Développeur Web.<br> Passionné par la technologie et les sciences, j'ai suivi le "Socle" de la formation proposée par l'école O'clock et suis dorénavant chez Simplon.co afin de parfaire mes connaissance et valoriser mes acquis en développement web dans le but de décrocher le Titre Professionnel: "Développeur Web et Web Mobile" et vivre d'un métier qui me captive.
+                Moi, c'est Clément Markey, Développeur Web.<br> Passionné par la technologie et les sciences, actuellement apprenant chez Simplon.co afin de parfaire mes connaissance et valoriser mon expérience en développement web dans le but de décrocher le Titre Professionnel: "Développeur Web et Web Mobile" et vivre d'un métier qui me captive.
             </p>
+        </section>
+
+        <section class="about row">
+            <h2 class="center">À propos</h2>
+
+            <div class="row container">
+                <p class="col">
+                    C'est en me rendant compte que j'avais beaucoup plus d'intérêt et de plaisir à apprendre à coder que de suivre mes cours de Gestion des Ressources Humaines en Irlande que j'ai compris qu'il fallait que je prenne <strong>mon avenir en main</strong> et que je me suis dirigé vers une pré-formation intensive de trois mois <strong>chez <a href="http://oclock.io">O'clock</a></strong> et m'embarquer dans le début du reste de ma vie ! J'y ai appris les bases du développement web avec HTML/CSS, PHP et JavaScript, mais surtout j'y ai découvert une réelle passion.<br> Ce trimestre passé, je me suis donc orienté vers <strong><a href="http://simplon.co" target="_blank">Simplon</a></strong>, où j'ai pu développer mes compétences précédemment acquises et découvrir le travail en <strong>mode projet</strong>, en utilisant les <strong>méthodes agiles</strong>. <br>
+                    Ayant réussi à faire de <strong>ma passion</strong> des compétences répondant à un <strong>réel besoin</strong>, je suis désormais à la recherche d'un <strong>CDI</strong> en tant que <strong>développeur back-end</strong> sur le secteur de Lille. <br>
+                    N'hésitez pas à me contacter via le formulaire <strong><a href="#form">en bas de page</a></strong> si mon profil vous intéresse.
+                </p>
+            </div>
+
         </section>
 
         <section class="folio row">
@@ -78,7 +91,8 @@
             <h2 class="center">Contact</h2>
 
             <div class="row" data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
-                <form action="index.php" class="col s12">
+
+                <form action="index.php" class="col s12" id="form">
                     <div class="input-field col s12 offset-m1 m5">
                         <input class="validate" type="text" name="name" id="name">
                         <label for="name">Votre nom</label>

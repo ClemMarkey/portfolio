@@ -39,15 +39,26 @@ p {
     line-height: 1.8;
 }
 
+a {
+    color: #d1d1d1;
+    text-decoration: underline;
+}
+
+strong {
+    color: #d1d1d1;
+}
+
 // ! Section top
 
 .top-img {
     position: absolute;
-    top: -397px;
-    transform: skew(76deg);
-    width: 89vw;
-    height: 120vh;
-    z-index: 1;
+    top: -78px;
+    left: 0;
+    transform: skew(42deg);
+    width: 81vw;
+    height: 126vh;
+    
+    z-index: 0;
     background: #161616;
     // box-shadow: 0px 0px 10px red;
 }
@@ -55,6 +66,16 @@ p {
 .top {
     text-align: center;
     position: relative;
+}
+
+// ! About
+
+.about {
+    position: relative;
+
+    p {
+        text-align: center;
+    }
 }
 
 // ! Section folio
@@ -144,6 +165,13 @@ footer {
 // ? Responsive
 
 @media screen and (min-width: 992px) {
+
+    .top-img {
+        top: -395px;
+        transform: skew(76deg);
+        width: 89vw;
+        height: 120vh;
+    }
 
     .top {
         margin-top: 110px;
