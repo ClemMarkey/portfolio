@@ -37,9 +37,9 @@
 
             <div class="row container">
                 <p class="col">
-                    C'est en me rendant compte que j'avais beaucoup plus d'intérêt et de plaisir à apprendre à coder que de suivre mes cours de Gestion des Ressources Humaines en Irlande que j'ai compris qu'il fallait que je prenne <strong>mon avenir en main</strong> et que je me suis dirigé vers une pré-formation intensive de trois mois <strong>chez <a href="http://oclock.io">O'clock</a></strong> et m'embarquer dans le début du reste de ma vie ! J'y ai appris les bases du développement web avec HTML/CSS, PHP et JavaScript, mais surtout j'y ai découvert une réelle passion.<br> Ce trimestre passé, je me suis donc orienté vers <strong><a href="http://simplon.co" target="_blank">Simplon</a></strong>, où j'ai pu développer mes compétences précédemment acquises et découvrir le travail en <strong>mode projet</strong>, en utilisant les <strong>méthodes agiles</strong>. <br>
-                    Ayant réussi à faire de <strong>ma passion</strong> des compétences répondant à un <strong>réel besoin</strong>, je suis désormais à la recherche d'un <strong>CDI</strong> en tant que <strong>développeur back-end</strong> sur le secteur de Lille. <br>
-                    N'hésitez pas à me contacter via le formulaire <strong><a href="#form">en bas de page</a></strong> si mon profil vous intéresse.
+                    C'est en me rendant compte que j'avais beaucoup plus d'intérêt et de plaisir à apprendre à coder que de suivre mes cours de Gestion des Ressources Humaines en Irlande que j'ai compris qu'il fallait que je prenne mon avenir en main et que je me suis dirigé vers une pré-formation intensive de trois mois chez <a href="http://oclock.io">O'clock</a> et m'embarquer dans le début du reste de ma vie ! J'y ai appris les bases du développement web avec HTML/CSS, PHP et JavaScript, mais surtout j'y ai découvert une réelle passion.<br> Ce trimestre passé, je me suis donc orienté vers <a href="http://simplon.co" target="_blank">Simplon</a>, où j'ai pu développer mes compétences précédemment acquises et découvrir le travail en mode projet, en utilisant les méthodes agiles. <br>
+                    Ayant réussi à faire de ma passion des compétences répondant à un réel besoin, je suis désormais à la recherche d'un CDI en tant que développeur back-end sur le secteur de Lille. <br>
+                    N'hésitez pas à me contacter via le formulaire <a href="#form">en bas de page</a> si mon profil vous intéresse.
                 </p>
             </div>
 
@@ -52,7 +52,7 @@
                 <div class="col folio-grid" data-aos="fade-right">
                     <div class="col s12 sombre m5">
                         <div class="opa">
-                            <img class="imaj" src="./img/HeyU.png" alt="Intégration HeyU">
+                            <a href="HeyU/index.html" target="_blank"><img class="imaj" src="./img/HeyU.png" alt="Intégration HeyU"></a>
                         </div>
                     </div>
                     <p class="col s12 offset-m1 m5">
@@ -63,7 +63,7 @@
                 <div class="col m12 folio-grid" data-aos="fade-left">
                     <div class="col s12 right m5 sombre">
                         <div class="opa">
-                            <img class="imaj" src="./img/Bang.png" alt="Site vitrine Bang Communication">
+                            <a href="http://preprod.bangcommunication.fr" target="_blank"><img class="imaj" src="./img/Bang.png" alt="Site vitrine Bang Communication"></a>
                         </div>
                     </div>
                     <p class="col s12 m5">
@@ -74,7 +74,7 @@
                 <div class="col m12 folio-grid " data-aos="fade-right">
                     <div class="col s12 sombre m5">
                         <div class="opa">
-                            <img class="imaj" src="./img/Maq.png" alt="Intégration modernen">
+                            <img class="imaj" src="./img/Maq.png" alt="Intégration moderne">
                         </div>
                     </div>
                     <p class="col s12 offset-m2 m5">
@@ -106,7 +106,7 @@
                         <label for="textarea">Votre message</label>
                     </div>
                     <div class="col m4 offset-m5">
-                        <button class="btn waves-effect waves-light btn-large grey darken-1" type="submit" name="action">Submit
+                        <button class="btn waves-effect waves-light btn-large grey darken-1" type="submit" name="action">Envoyer
                             <i class="material-icons right">send</i>
                         </button>
                     </div>
