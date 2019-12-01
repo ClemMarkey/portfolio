@@ -28,7 +28,7 @@
             <h1 class="col s12 offset-m2 m3">Bonjour<br>à tous</h1>
 
             <p class="container col m6 s12">
-                Je suis Clément Markey, Développeur Web.<br> Passionné par la technologie et les sciences, actuellement apprenant chez Simplon.co afin de parfaire mes connaissances et valoriser mon expérience en développement web dans le but de décrocher le Titre Professionnel: "Développeur Web et Web Mobile" et vivre d'un métier qui me captive.
+                Je suis Clément Markey, Développeur Web.<br> Passionné par la technologie et les sciences, je suis actuellement apprenant chez Simplon.co afin de parfaire mes connaissances et valoriser mon expérience en développement web dans le but de décrocher le Titre Professionnel: "Développeur Web et Web Mobile" et vivre d'un métier qui me captive.
             </p>
         </section>
 
