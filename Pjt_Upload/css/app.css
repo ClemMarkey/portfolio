@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(330deg, rgba(225, 225, 225, 0.05) 0%, rgba(225, 225, 225, 0.05) 33.333%, rgba(114, 114, 114, 0.05) 33.333%, rgba(114, 114, 114, 0.05) 66.666%, rgba(52, 52, 52, 0.05) 66.666%, rgba(52, 52, 52, 0.05) 99.999%), linear-gradient(66deg, rgba(181, 181, 181, 0.05) 0%, rgba(181, 181, 181, 0.05) 33.333%, rgba(27, 27, 27, 0.05) 33.333%, rgba(27, 27, 27, 0.05) 66.666%, rgba(251, 251, 251, 0.05) 66.666%, rgba(251, 251, 251, 0.05) 99.999%), linear-gradient(225deg, rgba(98, 98, 98, 0.05) 0%, rgba(98, 98, 98, 0.05) 33.333%, rgba(222, 222, 222, 0.05) 33.333%, rgba(222, 222, 222, 0.05) 66.666%, rgba(228, 228, 228, 0.05) 66.666%, rgba(228, 228, 228, 0.05) 99.999%), linear-gradient(90deg, rgb(28, 20, 63), rgb(40, 160, 253));
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #e7e7e7;
+    text-shadow: 3px 2px 1px #000000;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 0;
+    color: #272727;
+}
+
+.frame {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffffab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #00000062;
+}
+
+a {
+    margin-top: 15px;
+    color: #161616;
+}

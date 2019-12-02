@@ -74,11 +74,11 @@
                 <div class="col m12 folio-grid " data-aos="fade-right">
                     <div class="col s12 sombre m5">
                         <div class="opa">
-                            <img class="imaj" src="./img/Maq.png" alt="Intégration moderne">
+                            <a href="Pjt_Upload/index.php" target="_blank"><img class="imaj" src="./img/upload.png" alt="Projet envoi d'images"></a>
                         </div>
                     </div>
                     <p class="col s12 offset-m2 m5">
-                        Exercice pratique d'intégration dans le cadre de ma formation, à partir d'une maquette et sans utilisation de frameworks CSS.
+                        Petit projet personnel consistant en un formulaire d'envoi d'images et d'une galerie les affichant.
                     </p>
                 </div>
 
