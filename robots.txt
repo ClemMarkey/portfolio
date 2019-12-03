@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /img/
+Allow: /
+Sitemap: http://www.clemmarkey.fr/sitemap.xml

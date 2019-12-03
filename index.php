@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Je suis Clément Markey, Développeur Web. Et voici mon Portfolio" />
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- AOS -->
@@ -37,7 +38,7 @@
 
             <div class="row container">
                 <p class="col">
-                    C'est en me rendant compte que j'avais beaucoup plus d'intérêt et de plaisir à apprendre à coder que de suivre mes cours de Gestion des Ressources Humaines en Irlande que j'ai compris qu'il fallait que je prenne mon avenir en main et que je me suis dirigé vers une pré-formation intensive de trois mois chez <a href="http://oclock.io">O'clock</a> et m'embarquer dans le début du reste de ma vie ! J'y ai appris les bases du développement web avec HTML/CSS, PHP et JavaScript, mais surtout j'y ai découvert une réelle passion.<br> Ce trimestre passé, je me suis donc orienté vers <a href="http://simplon.co" target="_blank">Simplon</a>, où j'ai pu développer mes compétences précédemment acquises et découvrir le travail en mode projet, en utilisant les méthodes agiles. <br>
+                    C'est en me rendant compte que j'avais beaucoup plus d'intérêt et de plaisir à apprendre à coder que de suivre mes cours de Gestion des Ressources Humaines en Irlande que j'ai compris qu'il fallait que je prenne mon avenir en main et que je me suis dirigé vers une pré-formation intensive de trois mois chez <a href="http://oclock.io" target="_blank" rel="noreferrer">O'clock</a> et m'embarquer dans le début du reste de ma vie ! J'y ai appris les bases du développement web avec HTML/CSS, PHP et JavaScript, mais surtout j'y ai découvert une réelle passion.<br> Ce trimestre passé, je me suis donc orienté vers <a href="http://simplon.co" target="_blank" rel="noreferrer">Simplon</a>, où j'ai pu développer mes compétences précédemment acquises et découvrir le travail en mode projet, en utilisant les méthodes agiles. <br>
                     Ayant réussi à faire de ma passion des compétences répondant à un réel besoin, je suis désormais à la recherche d'un CDI en tant que développeur back-end sur le secteur de Lille. <br>
                     N'hésitez pas à me contacter via le formulaire <a href="#form">en bas de page</a> si mon profil vous intéresse.
                 </p>
@@ -63,7 +64,7 @@
                 <div class="col m12 folio-grid" data-aos="fade-left">
                     <div class="col s12 right m5 sombre">
                         <div class="opa">
-                            <a href="http://preprod.bangcommunication.fr" target="_blank"><img class="imaj" src="./img/Bang.png" alt="Site vitrine Bang Communication"></a>
+                            <a href="http://preprod.bangcommunication.fr" target="_blank" rel="noreferrer"><img class="imaj" src="./img/Bang.png" alt="Site vitrine Bang Communication"></a>
                         </div>
                     </div>
                     <p class="col s12 m5">
@@ -74,7 +75,7 @@
                 <div class="col m12 folio-grid " data-aos="fade-right">
                     <div class="col s12 sombre m5">
                         <div class="opa">
-                            <a href="Pjt_Upload/index.php" target="_blank"><img class="imaj" src="./img/upload.png" alt="Projet envoi d'images"></a>
+                            <a href="Pjt_Upload/" target="_blank"><img class="imaj" src="./img/upload.png" alt="Projet envoi d'images"></a>
                         </div>
                     </div>
                     <p class="col s12 offset-m2 m5">
